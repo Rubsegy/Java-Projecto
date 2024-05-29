@@ -1,4 +1,4 @@
-**ES:**Español
+**ES:** Español
 # Proyecto de Conexión de Objetos a Base de Datos en Java
 
 Este proyecto está basado en un trabajo asignado para finalizar una Unidad Formativa de Programación Orientada a Objetos de Java, que consiste en la conexión de Objetos a la Base de Datos.
@@ -21,7 +21,7 @@ Basado en un Menú que contiene las siguientes opciones:
 - **Importar Datos**: A partir de una nueva tabla en SQL, importa los archivos y los guarda en la tabla SQL.
 - **Exportar Datos**: Al presionar el botón, realiza una exportación de la tabla `vehiculos.sql` y guarda el archivo en descargas.
 
-**EN:**English
+**EN:** English
 
 # Object to Database Connection Project in Java
 
