@@ -1,0 +1,52 @@
+**ES:**
+<h1>Proyecto de Conexión de Objetos a Base de Datos en Java</h1>
+    <p>Este proyecto está basado en un trabajo asignado para finalizar una Unidad Formativa de Programación Orientada a Objetos de Java, que consiste en la conexión de Objetos a la Base de Datos.</p>
+
+    <h2>Mi programa consiste en lo siguiente:</h2>
+    <p>Basado en un Menú que contiene las siguientes opciones:</p>
+    <ul>
+        <li>Nuevo Vehículo</li>
+        <li>Eliminar Vehículo</li>
+        <li>Buscar Matrícula</li>
+        <li>Modificar Información</li>
+        <li>Importar Datos</li>
+        <li>Exportar Datos</li>
+        <li>Salir</li>
+    </ul>
+
+    <h2>Descripción de las funciones:</h2>
+    <ul>
+        <li><strong>Nuevo Vehículo</strong>: Añade un vehículo con sus atributos del menú y, a partir de ahí, recorre el Array para realizar un <code>hasNext</code>, crear otro vehículo y registrarlo en la base de datos.</li>
+        <li><strong>Eliminar Vehículo</strong>: A partir de la matrícula y número de bastidor, busca en la base de datos en la tabla <code>vehiculos</code> y recorre el Array para realizar un <code>remove</code>.</li>
+        <li><strong>Buscar Matrícula</strong>: A partir de la matrícula, filtra todos los atributos que coincidan con el método <code>equals</code> del vehículo que coincidan con la matrícula.</li>
+        <li><strong>Modificar Información</strong>: A partir de la base de datos, comprueba si el vehículo existe y obliga a actualizar sus campos.</li>
+        <li><strong>Importar Datos</strong>: A partir de una nueva tabla en SQL, importa los archivos y los guarda en la tabla SQL.</li>
+        <li><strong>Exportar Datos</strong>: Al presionar el botón, realiza una exportación de la tabla <code>vehiculos.sql</code> y guarda el archivo en descargas.</li>
+    </ul>
+    
+**EN:**
+
+<h1>Object to Database Connection Project in Java</h1>
+    <p>This project is based on an assignment to complete a Training Unit in Object-Oriented Programming in Java, which involves connecting Objects to a Database.</p>
+
+    <h2>My program consists of the following:</h2>
+    <p>Based on a Menu that contains the following options:</p>
+    <ul>
+        <li>New Vehicle</li>
+        <li>Delete Vehicle</li>
+        <li>Search License Plate</li>
+        <li>Modify Information</li>
+        <li>Import Data</li>
+        <li>Export Data</li>
+        <li>Exit</li>
+    </ul>
+
+    <h2>Function Descriptions:</h2>
+    <ul>
+        <li><strong>New Vehicle</strong>: Adds a vehicle with its attributes from the menu and, from there, iterates through the Array to perform a <code>hasNext</code>, create another vehicle, and register it in the database.</li>
+        <li><strong>Delete Vehicle</strong>: Based on the license plate and chassis number, searches the database in the <code>vehicles</code> table and iterates through the Array to perform a <code>remove</code>.</li>
+        <li><strong>Search License Plate</strong>: Based on the license plate, filters all attributes that match the vehicle's <code>equals</code> method that correspond to the license plate.</li>
+        <li><strong>Modify Information</strong>: From the database, checks if the vehicle exists and forces its fields to be updated.</li>
+        <li><strong>Import Data</strong>: From a new table in SQL, imports the files and saves them in the SQL table.</li>
+        <li><strong>Export Data</strong>: When the button is pressed, exports the <code>vehicles.sql</code> table and saves the file in downloads.</li>
+    </ul>
